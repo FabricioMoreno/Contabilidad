@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="contabilidad.css">
+</head>
+<body>
+    <div class="padre" id="padre">
+        <div class="header">
+            <h1>Tabla de amortizacion francesa</h1>
+            <div class="calculo">
+                <div class="yeah">
+                    <label for="prestamo" class="entrada">Prestamo</label>
+                    <input type="text" id="prestamo" class="entrada ver">
+                </div>
+                <div class="yeah">
+                    <label for="npagos" class="entrada">Numero de Pagos</label>
+                    <input type="text" value="" id="npagos"class="entrada ver">
+                </div>
+                <div class="yeah">
+                    <label for="interes"class="entrada">Interes</label>
+                    <input type="text" value="" id="interes"class="entrada ver">
+                </div>
+            </div>
+            <button type="button" id="submit"class="entrada">Analizar</button>
+        </div>
+                
+        <div id="cuota"></div>
+        <div id="resultado"></div>
+    </div>
+    
+<script src="contabilidad.js"></script>
+<script src="tabla.js"></script>
+</body>
+</html>

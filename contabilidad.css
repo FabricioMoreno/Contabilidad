@@ -1,0 +1,78 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    background: #F7F7F7;
+    
+}
+
+h1
+{
+    background:#5BEBAD;
+    text-align: center;
+    box-sizing: content-box;
+    border-radius: 15rem;
+    font-size: 6rem;
+}
+#padre
+{
+    width: 90%;
+    margin: 3rem auto;
+    display: flex;
+    flex-direction: column;
+}
+.header
+{
+    background: #DCFFB5;
+}
+.calculo
+{
+    background: #DCFFB5;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 1rem;
+    
+}
+.yeah
+{
+    display: flex;
+    text-align: center;
+    width: 100%;
+    font-size: 2rem;
+    box-sizing: content-box;
+    margin: 2.5rem;
+}
+
+#submit
+{
+    width: 100%;
+    height: 3rem;
+    font-size: 2rem;
+}
+.yeah label
+{
+    flex: 1;
+}
+.yeah input
+{
+    flex: 3;
+}
+
+
+table {
+    width: 100%;
+    border: 1px solid #000;
+    margin-bottom: 1rem;
+ }
+ th, td {
+    width: 25%;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    padding: 0.3em;
+    text-align: center;
+ }
+ caption {
+    padding: 0.3em;
+ }
